@@ -1,0 +1,151 @@
+/*css syntax is selector{property:value;}
+selector is the who to change (h1, p, body)
+property is what about the selector you want to change
+value is how to change the selector (color, size)*/
+/*******************************Tag Selector************************/
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-size: 5.625rem; /*16px=100%=1em(1 times the width of M) add r to em to for font size, so to figure out the percent you will take 90px/16px=5.625em, 5.625em*100= 562.5%*/
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", sans-serif;
+  color: #0e9c21;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.0rem;
+  font-weight: normal;
+  color: #0e9c21;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #027812;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #027812;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+hr{
+  border: dotted #d4d1cb 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+/********Class Selector (has a (.), can have more than one class)*********/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+  background-color: #EAF6F6;
+}
+
+.bottom-container {
+  background-color: #8c968d;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.skill-rows {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.about-me{
+  width: 50%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+}
+
+.webdevelop-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.OOB-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+   background: #0e9c21;
+   background-image: -webkit-linear-gradient(top, #0e9c21, #027812);
+   background-image: -moz-linear-gradient(top, #0e9c21, #027812);
+   background-image: -ms-linear-gradient(top, #0e9c21, #027812);
+   background-image: -o-linear-gradient(top, #0e9c21, #027812);
+   background-image: linear-gradient(to bottom, #0e9c21, #027812);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: "Montserrat", sans-serif;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+}
+
+.btn:hover {
+   background: #02fa23;
+   background-image: -webkit-linear-gradient(top, #02fa23, #36f54f);
+   background-image: -moz-linear-gradient(top, #02fa23, #36f54f);
+   background-image: -ms-linear-gradient(top, #02fa23, #36f54f);
+   background-image: -o-linear-gradient(top, #02fa23, #36f54f);
+   background-image: linear-gradient(to bottom, #02fa23, #36f54f);
+   text-decoration: none;
+}
+
+.copyright{
+  color: #027812;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/********ID Selector (has a (#), can only have one ID)******/
